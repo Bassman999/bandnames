@@ -1,0 +1,58 @@
+/* @override http://www.morningcopy.com.au/css/google-form.css */
+
+/* Morning Copy Google Form Styling */
+/* Visit us here: http://www.morningcopy.com.au */
+
+
+.ss-q-title
+{display:block;font-weight:bold;
+color: #45321c;}
+
+h1 {color: #45321c;}
+
+ul
+{padding:0 0 1em 1em}ol{padding:0 0 1em 1.3em}
+
+li
+{line-height:1.5em;padding:0 0 .5em 0}
+
+a {
+color: #c9743d;
+text-decoration: none;}
+
+a:hover {
+color: #c9743d;
+text-decoration: underline;}
+p
+{padding:0 0 1em 0}
+
+input,select,textarea,option
+{font-family:inherit;font-size: 12px;
+padding: 5px;
+border: 1px solid #003863;
+color: #000000;
+background-color: #fcfee5;}
+
+.ss-textarea
+{max-width:99%}
+
+.ss-q-help
+{display:block;color:#666;margin:.1em 0 .25em 0}
+
+.ss-q-long
+{max-width:90%}
+
+.ss-form-entry
+{margin-bottom:1.5em}
+
+.ss-choices
+{list-style:none;margin:.5em 0 0 0;padding:0}
+
+.ss-required-asterisk
+{color:#c43b1d}
+
+label
+{display:block;cursor:pointer}
+
+ul label
+{display:inline}

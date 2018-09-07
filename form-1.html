@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><link rel="shortcut icon" href="https://spreadsheet.google.com/images/forms/favicon2.ico" type="image/x-icon">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Alexis Feedback</title>
+
+<link href='css/4176578971-published_form_compiled.css' type='text/css' rel='stylesheet'>
+</head>
+<body class="ss-base-body" dir="ltr"><div class="ss-form-container">
+<div class="ss-form-heading">
+
+<hr class="ss-email-break" style="display:none;">
+<div class="ss-required-asterisk"><b><big><big><big>*</big></big></big></b>  Required Field</div></div>
+<div class="ss-form"><script type="text/javascript">var submitted_yfpvzjpi=false;function checkRequiredFields_yfpvzjpi(requiredFields)
+{
+	var errorMessage='Required field left blank.';
+	
+	for(var x in requiredFields)
+	{
+		var fieldNum=requiredFields[x];
+		
+		if(document.getElementById('entry_'+fieldNum))
+		{
+			if(!document.getElementById('entry_'+fieldNum).value.length)
+			{
+				alert(errorMessage);
+				
+				document.getElementById('entry_'+fieldNum).focus();
+				
+				return false;
+			}
+		}
+		else if(document.getElementById('group_'+fieldNum+'_1'))
+		{
+			var counter=1;
+			
+			var selected=false;
+			
+			while(document.getElementById('group_'+fieldNum+'_'+counter))
+			{
+				if(document.getElementById('group_'+fieldNum+'_'+counter).checked)
+				{
+					selected=true;
+				}
+				
+				counter++;
+			}
+			
+			if(document.getElementById('other_option:'+fieldNum))
+			{
+				if(document.getElementById('other_option:'+fieldNum).checked)
+				{
+					selected=true;
+					
+					if(!document.getElementsByName('entry.'+fieldNum+'.group.other_option_').item(0).value.length)
+					{
+						alert(errorMessage);
+						
+						document.getElementsByName('entry.'+fieldNum+'.group.other_option_').item(0).focus();
+						
+						return false;
+					}
+				}
+			}
+			
+			if(!selected)
+			{
+				alert(errorMessage);
+				
+				document.getElementById('group_'+fieldNum+'_1').focus();
+				
+				return false;
+			}
+		}
+	}
+	
+	return true;
+}</script><iframe name="hidden_iframe_yfpvzjpi" id="hidden_iframe_yfpvzjpi" style="display:none;" onload="if(submitted_yfpvzjpi){window.location='./thankyou.html';}"></iframe><form action="https://docs.google.com/spreadsheets/d/1tm9Rm239sLixAURiJ72uAq9Jcf67pFgcP5trOyDUxUo/pubhtml?widget=true&amp;headers=false" method="post" target="hidden_iframe_yfpvzjpi" onsubmit="if(checkRequiredFields_yfpvzjpi([0,1,5])){submitted_yfpvzjpi=true;}else{return false;}" id="ss-form">
+
+
+
+
+
+
+
+<table width="530">
+<tr>
+<td valign="bottom">
+
+<div class="errorbox-good">
+<div class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-title" for="entry_0">Your Name
+<span class="ss-required-asterisk"><b><big><big>*</big></big></b></span></label>
+<label class="ss-q-help" for="entry_0"></label>
+<input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0"></div></div></div>
+</td>
+
+<td valign="bottom">
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-title" for="entry_1">Your Email Address
+<span class="ss-required-asterisk"><b><big><big>*</big></big></b></span></label>
+<label class="ss-q-help" for="entry_1"></label>
+<input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1"></div></div></div>
+</td>
+
+</tr>
+
+<td valign="bottom">
+<br> <div class="errorbox-good">
+<div class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_2">Company Name
+</label>
+<label class="ss-q-help" for="entry_2"></label>
+<input type="text" name="entry.2.single" value="" class="ss-q-short" id="entry_2"></div></div></div>
+</td>
+
+<td valign="bottom">
+<br> <div class="errorbox-good">
+<div class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_3">Phone #
+</label>
+<label class="ss-q-help" for="entry_3"></label>
+<input type="text" name="entry.3.single" value="" class="ss-q-short" id="entry_3"></div></div></div>
+</td>
+
+</tr>
+
+<tr colspan="2">
+<td colspan="2" valign="bottom">
+<br> <div class="errorbox-good">
+<div class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_5">Feedback / Message
+<span class="ss-required-asterisk"><b><big><big>*</big></big></b></span></label>
+<label class="ss-q-help" for="entry_5"></label>
+<textarea name="entry.5.single" rows="8" cols="50" class="ss-q-long" id="entry_5"></textarea></div></div></div>
+</td>
+</tr>
+</table>
+
+
+<input type="hidden" name="pageNumber" value="0">
+<input type="hidden" name="backupCache" value="">
+
+<div class="ss-item ss-navigate"><div class="ss-form-entry">
+<input type="submit" name="submit" value="Submit"></div></div></form>
+<script type="text/javascript">
+      
+      (function() {
+var divs = document.getElementById('ss-form').
+getElementsByTagName('div');
+var numDivs = divs.length;
+for (var j = 0; j < numDivs; j++) {
+if (divs[j].className == 'errorbox-bad') {
+divs[j].lastChild.firstChild.lastChild.focus();
+return;
+}
+}
+for (var i = 0; i < numDivs; i++) {
+var div = divs[i];
+if (div.className == 'ss-form-entry' &&
+div.firstChild &&
+div.firstChild.className == 'ss-q-title') {
+div.lastChild.focus();
+return;
+}
+}
+})();
+      </script></div>
