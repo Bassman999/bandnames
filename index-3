@@ -1,0 +1,91 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Band Names</title>
+	
+<link type="text/css" rel="stylesheet" href="http://www.morningcopy.com.au/css/google-form.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+
+<body background="images/cassette-pile-4.jpg">
+
+<!-- Use these styles to magnify the results from the Google Spreadsheet -->
+<style type="text/css">
+#iframe_zoom{
+zoom: 1.36;
+-moz-transform: scale(1.25);
+-moz-transform-origin: 0 0;
+-o-transform: scale(1.25);
+-o-transform-origin: 0 0;
+-webkit-transform: scale(1.1);
+-webkit-transform-origin: 0 0;
+}
+</style>
+
+<style type="text/css">
+#iframe_zoom_2{
+zoom: 1.9;
+-moz-transform: scale(0.9);
+-moz-transform-origin: 0 0;
+-o-transform: scale(0.9);
+-o-transform-origin: 0 0;
+-webkit-transform: scale(0.9);
+-webkit-transform-origin: 0 0;
+}
+</style>
+
+<table>
+<tr align="left">
+<td>
+<iframe src="https://docs.google.com/forms/d/1TSF2kgIZKgAjTJaWBC4cJQ-lrIM718h3rZTJ3fWzA0s/viewform?embedded"="true" align="left" scrolling="no" width="480" height="370" frameborder="0" marginheight="0" marginwidth="0" method="post" target="hidden_iframe">Loading..."</iframe>
+<!-- <img src="images/cassettes-gif.gif" width="365" height="205" border="0"> -->
+<iframe id="iframe_zoom" src="https://docs.google.com/spreadsheets/d/1tm9Rm239sLixAURiJ72uAq9Jcf67pFgcP5trOyDUxUo/gviz/tq?tqx=out:html&range=F2&tq=select+F where F2:F2 > 0 " align="left" scrolling="no" frameborder="0" width="100" height="0"></iframe>
+</td>
+<td align="top">
+</td>
+</tr>
+</table>
+
+<table width="480">
+<tr align="left" bgcolor="#498bf3">
+<td bgcolor="#498bf3">
+<center>AFTER YOU SUBMIT YOUR BAND NAME</center>
+<a href="javascript:history.go(0)" STYLE="text-decoration:none; font-family:arial; color:white;"><b><center>CLICK HERE TO REFRESH THE LIST</center></b></a>
+</td>
+<td bgcolor="#FF76D8">
+<iframe src="https://docs.google.com/spreadsheets/d/1tm9Rm239sLixAURiJ72uAq9Jcf67pFgcP5trOyDUxUo/gviz/tq?tqx=out:html&gid=987768249&tq=select+F order by F desc" align="center" bgcolor="#498bf3" scrolling="no" frameborder="0" width="100" height="66"></iframe>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+
+<!-- Results from Google Spreadsheet -->
+<table>
+<tr>
+<td width="100%">
+<!-- this is the COUNT  -->
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="100%">
+<!-- this is the LIST  -->
+<iframe id="iframe_zoom" src="https://docs.google.com/spreadsheets/d/1tm9Rm239sLixAURiJ72uAq9Jcf67pFgcP5trOyDUxUo/gviz/tq?tqx=out:html&gid=987768249&tq=select+A,B order by A desc" align="left" scrolling="no" frameborder="0" width="700" height="5000"></iframe>
+</td>
+</tr>
+</table>
+
+</html>
